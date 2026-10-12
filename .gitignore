@@ -1,0 +1,22 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.vscode/
+.idea/
+
+# Python / CircuitPython tooling
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# KiCad generated/backups
+*-backups/
+*.lck
+*.lck.*
+
+# Manufacturing outputs are generated deliberately
+hardware/**/gerbers/
+hardware/**/fab/
